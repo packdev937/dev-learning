@@ -1,7 +1,4 @@
 # 프로젝트 환경 설정 [JPA 실전(1)]
-
-Completed?: No
-
 ### View 환경 설정
 
 Q. Thymeleaf는 어떻게 template 패키지 안에 있는 폴더를 찾아가는 것인가?
