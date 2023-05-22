@@ -50,4 +50,8 @@ public ResponseEntity<Book> getBook(@PathVariable Long id) {
 
 우선 `@ResponseBody`는 말그대로 Body에 JSON 데이터를 실어서 응답을 보내는 것입니다. 그렇기 때문에 자연스럽게 `@GetMapping`과 함께 쓰여야합니다.
 
+**주의할 점**
+
+`@RequestBody를` 사용할 때 주의할 점은 `@RestController`와 함께 쓰면 안된다는 것입니다. Controller는 `@Controller` 와 `@RestController`로 나뉘는데 이는 각각 파일과 데이터를 응답하는 애노테이션입니다. `@RestController`는 데이터를 응답하는 Controller로서 Body에 자동으로 자바 객체가 매핑되어 전달됩니다.
+
 짧은 코드 몇 개를 통해 `@RequestBody` 그리고 `@ResponseBody`에 대해 알아보았습니다. 항상 어떠한 요청을 처리하기 전, 클라이언트가 JSON 데이터를 전달하는가/전달받는가에 대해 잘 고민하고 애노테이션을 사용하면 좋을 것 같습니다.
