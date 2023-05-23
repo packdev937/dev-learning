@@ -1,5 +1,7 @@
 # Model에 빈 객체를 넘기는 이유
 
+본 게시글은 인프런 김영한님의 JPA 활용 1 - 웹 어플리케이션 개발 강의를 참조하여 작성하였습니다.
+
 ### 개요
 
 스프링 프로젝트를 진행하다보면 HTML 파일에 객체의 필드 값을 사전에 줘야 하는 상황이 종종 있습니다. 이 때 값이 들어있는 객체를 주는 것이 아닌 단지 객체만 생성해서 주는 경우 즉, 빈 객체를 생성해서 전달하는 경우가 있는데요 이에 대해 자세히 알아보고자 합니다.
@@ -9,7 +11,7 @@
 `ItemController.java`
 
 ```java
-	@GetMapping(value = "/items/new")
+    @GetMapping(value = "/items/new")
     public String createForm(Model model) {
         model.addAttribute("form", new BookForm());
         return "items/createItemForm";
@@ -35,7 +37,7 @@ html 파일에는 다음과 같은 타임리프 문법이 작성되어 있습니
 반대로 빈 객체를 넘기지 않는 경우 또한 존재합니다.
 
 ```java
-		@GetMapping("items/{itemId}/edit")
+    @GetMapping("items/{itemId}/edit")
     public String updateItemForm(@PathVariable("itemId") Long itemId, Model model) {
         Book item = (Book) itemService.findOne(itemId);
 
