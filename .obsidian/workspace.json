@@ -8,20 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6b9cb68d2952eb65",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "748ca54f08f49ea2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc97494089a89849",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/tdd/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/테스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "backend/tdd/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "backend/tdd/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "backend/tdd/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/테스트.md"
               }
             }
           }
@@ -155,10 +159,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5a41519426e52f74",
+  "active": "dc97494089a89849",
   "lastOpenFiles": [
-    "backend",
+    "backend/tdd/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/테스트.md",
+    "backend/tdd/lecture",
     "README.md",
+    "backend/tdd/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD",
+    "backend/tdd",
+    "backend",
+    "backend",
     "제 폴더"
   ]
 }
