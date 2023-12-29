@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/test/Stub.md",
+                "file": "backend/test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/4-1 상품 주문 API 테스트로 전환하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/test/Stub.md",
+                "file": "backend/test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/4-1 상품 주문 API 테스트로 전환하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/test/Stub.md",
+                "file": "backend/test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/4-1 상품 주문 API 테스트로 전환하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/test/Stub.md"
+                "file": "backend/test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/4-1 상품 주문 API 테스트로 전환하기.md"
               }
             }
           }
@@ -163,9 +163,10 @@
   },
   "active": "48badd45885706da",
   "lastOpenFiles": [
-    "material/Test Stub (1).png",
     "backend/test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/3-3. API 테스트로 전환하기.md",
+    "backend/test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/4-1 상품 주문 API 테스트로 전환하기.md",
     "backend/test/Stub.md",
+    "material/Test Stub (1).png",
     "backend/test/무제 폴더",
     "backend/test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/3-1. POJO 상품 수정 API 구현하기.md",
     "backend/test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/2-2.  API 테스트로 전환하기.md",
