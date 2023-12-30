@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/gradle/allOpen {} and noArg{}.md",
+                "file": "backend/spring/kopring/WebClient로 Kakao API 호출하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/gradle/allOpen {} and noArg{}.md",
+                "file": "backend/spring/kopring/WebClient로 Kakao API 호출하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/gradle/allOpen {} and noArg{}.md",
+                "file": "backend/spring/kopring/WebClient로 Kakao API 호출하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/gradle/allOpen {} and noArg{}.md"
+                "file": "backend/spring/kopring/WebClient로 Kakao API 호출하기.md"
               }
             }
           }
@@ -175,8 +175,13 @@
   },
   "active": "62d6455485d7c192",
   "lastOpenFiles": [
-    "kotlin/다양한 class.md",
+    "backend/spring/WebClient vs RestTemplate.md",
+    "backend/spring/kopring/WebClient로 Kakao API 호출하기.md",
+    "backend/spring/kopring",
+    "무제 파일.md",
+    "backend/spring",
     "backend/gradle/allOpen {} and noArg{}.md",
+    "kotlin/다양한 class.md",
     "backend/gradle",
     "kotlin/kotlin  변수 알아보기.md",
     "kotlin/class, interface 그리고 function.md",
@@ -202,7 +207,6 @@
     "java/Map 정렬하기.md",
     "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/1-3. JPA 적용하기.md",
     "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/1-2. API 테스트로 전환하기.md",
-    "무제 파일.md",
     "interview",
     "java",
     "material/IntelliJ - Move Static Member.png",
@@ -211,8 +215,6 @@
     "material/IntelliJ - Inline Variable 2.png",
     "material/IntelliJ - Inline Variable.png",
     "README.md",
-    "material/ExtractableResponse.png",
-    "material",
-    "test/lecture"
+    "material/ExtractableResponse.png"
   ]
 }
