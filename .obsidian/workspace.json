@@ -35,9 +35,11 @@
             "id": "62d6455485d7c192",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/SN2T Flowchart.md"
+                "file": "kotlin/kotlin  변수 알아보기.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/SN2T Flowchart.md",
+                "file": "kotlin/kotlin  변수 알아보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/SN2T Flowchart.md",
+                "file": "kotlin/kotlin  변수 알아보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/SN2T Flowchart.md"
+                "file": "kotlin/kotlin  변수 알아보기.md"
               }
             }
           }
@@ -171,11 +173,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5a41519426e52f74",
+  "active": "62d6455485d7c192",
   "lastOpenFiles": [
+    "kotlin/class, interface 그리고 function.md",
+    "kotlin/다양한 class.md",
+    "kotlin/? ?. ?.md",
+    "kotlin/kotlin  변수 알아보기.md",
+    "Excalidraw/SN2T Flowchart.md",
+    "kotlin/lecture/맛보자! 코틀린과 스프링으로 API 호출하기",
+    "kotlin/lecture",
+    "kotlin",
     "test/REST-Assured 란?.md",
     "test/Stub.md",
-    "Excalidraw/SN2T Flowchart.md",
     "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/4-1 상품 주문 API 테스트로 전환하기.md",
     "Excalidraw",
     "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/3-3. API 테스트로 전환하기.md",
@@ -203,9 +212,6 @@
     "material/ExtractableResponse.png",
     "material",
     "test/lecture",
-    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD",
-    "test",
-    "backend",
-    "backend"
+    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD"
   ]
 }
