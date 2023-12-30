@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kotlin/kotlin  변수 알아보기.md",
+                "file": "backend/gradle/allOpen {} and noArg{}.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kotlin/kotlin  변수 알아보기.md",
+                "file": "backend/gradle/allOpen {} and noArg{}.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kotlin/kotlin  변수 알아보기.md",
+                "file": "backend/gradle/allOpen {} and noArg{}.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kotlin/kotlin  변수 알아보기.md"
+                "file": "backend/gradle/allOpen {} and noArg{}.md"
               }
             }
           }
@@ -175,10 +175,12 @@
   },
   "active": "62d6455485d7c192",
   "lastOpenFiles": [
-    "kotlin/class, interface 그리고 function.md",
     "kotlin/다양한 class.md",
-    "kotlin/? ?. ?.md",
+    "backend/gradle/allOpen {} and noArg{}.md",
+    "backend/gradle",
     "kotlin/kotlin  변수 알아보기.md",
+    "kotlin/class, interface 그리고 function.md",
+    "kotlin/? ?. ?.md",
     "Excalidraw/SN2T Flowchart.md",
     "kotlin/lecture/맛보자! 코틀린과 스프링으로 API 호출하기",
     "kotlin/lecture",
@@ -211,7 +213,6 @@
     "README.md",
     "material/ExtractableResponse.png",
     "material",
-    "test/lecture",
-    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD"
+    "test/lecture"
   ]
 }
