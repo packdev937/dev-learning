@@ -47,3 +47,4 @@ Nginx는 이벤트로 일을 처리합니다. 이를 **event-driven** 이라고 
 #### Reference
 - https://www.youtube.com/watch?v=Zimhvf2B7Es&t=173s
 - https://www.youtube.com/watch?v=6FAwAXXj5N0
+- https://www.youtube.com/watch?v=ZJpT-Wa-pZ8
