@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/spring/kopring/Kotlin 리팩토링 절차.md",
+                "file": "backend/Github Actions으로 자동 배포 경험해보기.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76ae24aa596f33e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/spring/BaseEntity를 사용해보자.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "bc929590d5bfb65d",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/spring/kopring/Kotlin 리팩토링 절차.md",
+                "file": "backend/spring/BaseEntity를 사용해보자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/spring/kopring/Kotlin 리팩토링 절차.md",
+                "file": "backend/spring/BaseEntity를 사용해보자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/spring/kopring/Kotlin 리팩토링 절차.md"
+                "file": "backend/spring/BaseEntity를 사용해보자.md"
               }
             }
           }
@@ -148,53 +161,54 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bad3af3316ec5985",
+  "active": "76ae24aa596f33e3",
   "lastOpenFiles": [
-    "backend/spring/kopring/WebClient로 Kakao API 호출하기.md",
-    "kotlin/List와 MutableList.md",
-    "backend/spring/kopring/Kotlin 리팩토링 절차.md",
-    "material/kopring-refactoring exception.png",
-    "backend/gradle/allOpen {} and noArg{}.md",
-    "backend/spring/kopring/GlobalExceptionHandler 만들기.md",
-    "backend/spring/kopring/yml에서 설정 정보 불러오기.md",
-    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/3-2. 스프링 부트 테스트로 전환하기.md",
-    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/4-1 상품 주문 API 테스트로 전환하기.md",
-    "test/junit5/Junit5 Example.md",
-    "test/@SpringBootTest?.md",
-    "test/junit5/Kotlin 기반의 간단한 @SpringBootTest 작성하기.md",
-    "material/LayeredArchitecture.png",
-    "test/REST-Assured 란?.md",
-    "test/junit5",
+    "backend/spring/일급 컬렉션과 @Embeddable.md",
+    "backend/spring/BaseEntity를 사용해보자.md",
+    "backend/spring/project/EatSSU/ReviewService.java.md",
     "backend/spring/WebClient vs RestTemplate.md",
-    "backend/spring/kopring",
-    "backend/spring",
-    "kotlin/다양한 class.md",
-    "backend/gradle",
-    "kotlin/kotlin  변수 알아보기.md",
-    "kotlin/class, interface 그리고 function.md",
-    "kotlin/? ?. ?.md",
-    "Excalidraw/SN2T Flowchart.md",
-    "kotlin/lecture/맛보자! 코틀린과 스프링으로 API 호출하기",
-    "kotlin/lecture",
-    "kotlin",
-    "test/Stub.md",
-    "Excalidraw",
-    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/3-3. API 테스트로 전환하기.md",
-    "material/Test Stub (1).png",
-    "backend/test/무제 폴더",
+    "backend/웹 서버 (Nginx)를 통해 배포하는 이유.md",
+    "backend/SOAP API와 REST API.md",
+    "backend/Nginx란.md",
+    "backend/Github Actions으로 자동 배포 경험해보기.md",
+    "backend/dto 클래스는 어디까지 노출하는게 좋을까.md",
+    "backend/Docker-Compose도 CICD.md",
+    "excalidraw/Sunshine.md",
+    "excalidraw/SN2T Flowchart.md",
+    "material/CD-CD EC2 (1).png",
+    "스크린샷 2024-01-28 오후 12.44.08.png",
+    "스크린샷 2024-01-28 오후 11.10.39.png",
+    "스크린샷 2024-01-28 오후 2.36.00.png",
+    "스크린샷 2024-01-28 오전 11.21.32.png",
+    "스크린샷 2024-01-28 오후 12.44.33.png",
+    "material/CD-CD IAM (1).png",
+    "스크린샷 2024-01-28 오후 2.36.11.png",
+    "material/CD-CD IAM (7).png",
+    "material/CD-CD IAM (9).png",
+    "backend/Certbot이란.md",
+    "excalidraw/Drawing 2024-01-28 12.48.31.excalidraw.md",
+    "test/spring/UserDetails는 어떻게 테스트 할까.md",
+    "test/[Baekjoon] 2042 구간 합 구하기 a5f82f91b68d4c4ea3e05e64ac410690.md",
+    "backend/우아한 객체지향을 듣고서.md",
+    "backend/제대로 설계하는 REST API.md",
+    "excalidraw/무제 파일.canvas",
     "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/3-1. POJO 상품 수정 API 구현하기.md",
-    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/2-2.  API 테스트로 전환하기.md",
-    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/2-1. 상품 조회 API 구현하기.md",
-    "java/Varargs.md",
-    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/1-1. POJO 상품 등록 API 구현하기.md",
-    "material/Java Docs - Map.of.png",
-    "java/Map 정렬하기.md",
-    "interview",
-    "material/IntelliJ - Move Static Member.png",
-    "material/IntelliJ - Move Class.png",
-    "material/IntelliJ - Extract Method Message.png",
-    "material/IntelliJ - Inline Variable 2.png",
-    "material/IntelliJ - Inline Variable.png",
-    "material/ExtractableResponse.png"
+    "무제 파일.md",
+    "test/spring",
+    "programming/Good code, Bad code/깊이 중첩된 코드를 피하라.md",
+    "programming/Good code, Bad code/함수가 하는 일을 하나로 제한하라.md",
+    "programming/Good code, Bad code/가독성 좋은 코드는.md",
+    "programming/Good code, Bad code/처음부터 불가능한 코드를 만들어라.md",
+    "programming/Good code, Bad code/Tell Don't Ask 원칙.md",
+    "test/REST-Assured 란?.md",
+    "backend/spring/project/EatSSU",
+    "backend/spring/project",
+    "programming/Good code, Bad code",
+    "programming/refactoring",
+    "programming",
+    "network",
+    "backend/docker",
+    "test/junit5",
+    "backend/spring/kopring"
   ]
 }
