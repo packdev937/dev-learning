@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/spring/@JsonProperty로 매핑을 진행해보자.md",
+                "file": "test/spring/고정 ID 값은 사용하지 말라.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/spring/@JsonProperty로 매핑을 진행해보자.md",
+                "file": "test/spring/고정 ID 값은 사용하지 말라.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/spring/@JsonProperty로 매핑을 진행해보자.md",
+                "file": "test/spring/고정 ID 값은 사용하지 말라.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/spring/@JsonProperty로 매핑을 진행해보자.md"
+                "file": "test/spring/고정 ID 값은 사용하지 말라.md"
               }
             }
           }
@@ -163,6 +163,15 @@
   },
   "active": "76ae24aa596f33e3",
   "lastOpenFiles": [
+    "backend/spring/cascade = CascadeType.All 은 뭘까?.md",
+    "test/spring/고정 ID 값은 사용하지 말라.md",
+    "backend/spring/(미완) EnumMap을 사용하고 싶을 때.md",
+    "EnumMap Error (1).png",
+    "backend/design-pattern/(미완) 템플릿 메소드 패턴을 사용해보자.md",
+    "material/GCP Compute Engine (1).png",
+    "backend/design-pattern",
+    "무제 파일.md",
+    "backend/spring/@JsonProperty로 매핑을 진행해보자.md",
     "backend/spring/BaseEntity를 사용해보자.md",
     "backend/spring/WebClient vs RestTemplate.md",
     "backend/Github Actions으로 자동 배포 경험해보기.md",
@@ -175,13 +184,11 @@
     "backend/dto 클래스는 어디까지 노출하는게 좋을까.md",
     "backend/gradle/allOpen {} and noArg{}.md",
     "excalidraw/Sunshine.md",
-    "backend/spring/@JsonProperty로 매핑을 진행해보자.md",
     "backend/spring/일급 컬렉션과 @Embeddable.md",
     "backend/GCP/Google Cloud Platform 인스턴스 만들기.md",
-    "GCP Compute Engine (4).png",
-    "GCP Compute Engine (3).png",
-    "GCP Compute Engine (2).png",
-    "GCP Compute Engine (1).png",
+    "material/GCP Compute Engine (4).png",
+    "material/GCP Compute Engine (3).png",
+    "material/GCP Compute Engine (2).png",
     "backend/GCP",
     "backend/spring/project/EatSSU/ReviewService.java.md",
     "excalidraw/SN2T Flowchart.md",
@@ -190,25 +197,18 @@
     "스크린샷 2024-01-28 오후 11.10.39.png",
     "스크린샷 2024-01-28 오후 2.36.00.png",
     "스크린샷 2024-01-28 오전 11.21.32.png",
-    "스크린샷 2024-01-28 오후 12.44.33.png",
     "excalidraw/Drawing 2024-01-28 12.48.31.excalidraw.md",
     "test/spring/UserDetails는 어떻게 테스트 할까.md",
     "test/[Baekjoon] 2042 구간 합 구하기 a5f82f91b68d4c4ea3e05e64ac410690.md",
     "backend/우아한 객체지향을 듣고서.md",
     "excalidraw/무제 파일.canvas",
-    "test/lecture/실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD/3-1. POJO 상품 수정 API 구현하기.md",
-    "무제 파일.md",
     "test/spring",
-    "programming/Good code, Bad code/깊이 중첩된 코드를 피하라.md",
-    "programming/Good code, Bad code/함수가 하는 일을 하나로 제한하라.md",
-    "programming/Good code, Bad code/가독성 좋은 코드는.md",
     "backend/spring/project/EatSSU",
     "backend/spring/project",
     "programming/Good code, Bad code",
     "programming/refactoring",
     "programming",
     "network",
-    "backend/docker",
-    "test/junit5"
+    "backend/docker"
   ]
 }
