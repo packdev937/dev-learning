@@ -12,7 +12,7 @@ docker build -t [username]/[repository 명] ./
 
 docker images로 이미지가 생성된걸 확인할 수 있습니다.
 ```
-docker image
+docker images
 ```
 
 그리고 이미지를 docker hub에 push 해줍니다.
@@ -48,12 +48,12 @@ sudo nohup docker-compose up &
 sudo docker-compose down
 sudo docker rmi [삭제할 이미지]
 sudo docker pull packdev937/sunshine-server:[tag]
-sudo docker tag packdev937/sunshine-server:v2 **sunshine** 
+sudo docker tag packdev937/sunshine-server sunshine
 + 뒤에 sunshine은 docker-compose.yml에 등록한 이름입니다.
 // 따로 태그를 안달아주면 최신 버전으로 업데이트 되는 듯 합니다. 
 
 
-+ `docker-compose logs -f` 로 로그를 확인
++ sudo docker-compose logs -f 로 로그를 확인
 
 
 ### exec /usr/openjdk-17/bin/java: exec format error 
@@ -62,3 +62,8 @@ sudo docker tag packdev937/sunshine-server:v2 **sunshine**
 docker buildx create --use
 docker buildx build --push --platform linux/amd64 -t [도커 사용자명]/[레포지토리 이름] .
 ```
+ex) docker buildx build --push --platform linux/amd64 -t packdev937/sunshine-server .
+
+(매번 이걸로 빌드하자)
+### 주의할 점
+터미널에서 실행하자 
