@@ -1,0 +1,1 @@
+@Getter와 @Setter를 정의해야 합니다,.

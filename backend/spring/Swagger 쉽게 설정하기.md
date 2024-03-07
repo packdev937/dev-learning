@@ -49,3 +49,17 @@ Controller
 @Tag(name = "User", description = "User API")  
 public class UserController {
 ```
+
+만약 Token 기반 인증을 추가하고 싶다면?
+```
+@SecuritySchemes({  
+        @SecurityScheme(  
+                name = SECURITY_SCHEME_BEARER,  
+                type = SecuritySchemeType.HTTP,  
+                bearerFormat = "JWT",  
+                scheme = "bearer",  
+                description = "인증이 필요한 경우 사용될 token 을 넣어준다."  
+  
+        )  
+})
+```
