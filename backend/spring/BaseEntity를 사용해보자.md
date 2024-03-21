@@ -33,3 +33,18 @@ Entity가 생성되어 저장될 때 시간이 자동으로 저장됩니다.
 
 #### LastModifiedDate
 Entity이 값을 변경할 때 시간이 자동으로 저장됩니다. 
+
+추가적으로 BaseEntity를 사용한다면 @EnableJpaAuditing에 추가해줘야 합니다.
+```java
+@SpringBootApplication  
+@EnableJpaAuditing  
+public class SunshineServerApplication {  
+  
+    public static void main(String[] args) {  
+        SpringApplication.run(SunshineServerApplication.class, args);  
+    }  
+  
+}
+```
+
+이는 Auditing 활성화를 위해 필요한 작업입니다.

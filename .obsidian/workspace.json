@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/CORS 관련 설정 파일.md",
+                "file": "backend/spring/CORS 관련 설정 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 401.5
   },
   "right": {
     "id": "bc929590d5bfb65d",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/CORS 관련 설정 파일.md",
+                "file": "backend/spring/CORS 관련 설정 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/CORS 관련 설정 파일.md",
+                "file": "backend/spring/CORS 관련 설정 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/CORS 관련 설정 파일.md"
+                "file": "backend/spring/CORS 관련 설정 파일.md"
               }
             }
           }
@@ -148,52 +148,52 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "efd6c7cb6fe6c101",
+  "active": "5a41519426e52f74",
   "lastOpenFiles": [
-    "terminal/nohup 명령어로 백그라운드에서 서비스 실행하기.md",
-    "backend/CORS 관련 설정 파일.md",
-    "backend/웹 서버 (Nginx)를 통해 배포하는 이유.md",
-    "backend/제대로 설계하는 REST API.md",
-    "note/Feburary 2024.md",
-    "material/스크린샷 2024-02-10 오전 2.34.39.png",
-    "관련 글.md",
-    "material/OAuth 2.0 프로세스.png",
+    "programming/template/여러 환경에서의 application.properties.md",
+    "backend/spring/application.yml 훑어보기.md",
+    "backend/spring/@JsonProperty로 매핑을 진행해보자.md",
+    "backend/spring/properties 클래스를 만들 때 @EnableConfigurationProperties.md",
+    "[.md",
+    "reference/Spring Batch.md",
     "README.md",
-    "terminal/맥북에서 SHA-1 키 확인하기.md",
-    "terminal",
-    "backend/Certbot이란.md",
-    "git/Token을 추가한 Github 주소 양식.md",
-    "git/Private Repository Clone 하는 법.md",
-    "git/Github SSH Key 등록.md",
-    "git/gitignore가 적용 안될 때.md",
-    "backend/SOAP API와 REST API.md",
-    "backend/Nginx란.md",
-    "backend/Github Actions으로 자동 배포 경험해보기.md",
+    "reference/spring batch/무제 파일.md",
+    "reference/spring batch",
+    "reference",
+    "programming/template/AWS S3.md",
+    "programming/template/Software Architecture.md",
+    "programming/template/CICD.md",
+    "programming/template/CORS.md",
+    "programming/template/HTTPS.md",
+    "programming/template/Google OAuth.md",
+    "programming/template/JWT.md",
+    "programming/template/Docker.md",
+    "programming/template/Redis.md",
+    "programming/template/Swagger.md",
+    "programming/cron 표현식 정리.md",
+    "programming/template",
+    "lecture/Spring Cloud로 개발하는 마이크로서비스 아키텍쳐/12 factors.md",
+    "lecture/Spring Cloud로 개발하는 마이크로서비스 아키텍쳐",
+    "lecture/무제 파일.md",
+    "lecture",
+    "backend/spring/RequestBody로 Enum을 받을 때 어떻게 해야 하는가?.md",
+    "backend/spring/@ㅓ노테이션을 정리해보자.md",
     "backend/spring/Swagger 쉽게 설정하기.md",
-    "backend/spring/Swagger로 Date 받을 때 주의할 점.md",
-    "backend/spring/WebClient vs RestTemplate.md",
-    "backend/spring/(미완) Google OAuth 적용 일지.md",
-    "backend/spring/(미완) EnumMap을 사용하고 싶을 때.md",
-    "backend/spring/(미완) 일급 컬렉션과 @Embeddable.md",
-    "backend/spring/(미완) 스프링 스케쥴러 사용하기.md",
-    "backend/spring/(미완) 불변 객체를 사용하라.md",
-    "docker/Docker 빌드 프로세스.md",
-    "backend/Docker-Compose도 CICD.md",
+    "backend/spring/Jsoup로 정적 크롤링.md",
+    "backend/spring/Selenium으로 동적 크롤링.md",
+    "programming/methodology",
+    "backend/trouble-shooting",
+    "book",
+    "backend/spring/batch",
+    "material/스크린샷 2024-02-10 오전 2.34.39.png",
+    "material/OAuth 2.0 프로세스.png",
+    "terminal",
     "material/스크린샷 2024-03-14 오전 10.07.58.png",
     "material/id_rsa.png",
-    "git",
     "material/스크린샷 2024-03-11 오전 10.32.23.png",
     "material/VS Code Command Pallet.png",
-    "frontend/vscode",
-    "frontend",
-    "error",
     "excalidraw/무제 파일.canvas",
-    "note/Feburary 2024",
-    "note",
     "material/스크린샷 2024-02-12 오전 11.51.13.png",
-    "backend/spring/project/Sunshine",
-    "backend/spring/code review",
-    "docker",
     "material/EnumMap Error (1).png",
     "material/GCP Compute Engine (1).png",
     "material/GCP Compute Engine (4).png"

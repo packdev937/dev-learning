@@ -59,7 +59,6 @@ public class UserController {
                 bearerFormat = "JWT",  
                 scheme = "bearer",  
                 description = "인증이 필요한 경우 사용될 token 을 넣어준다."  
-  
         )  
 })
 ```

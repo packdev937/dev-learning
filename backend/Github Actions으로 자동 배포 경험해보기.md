@@ -20,7 +20,7 @@ CI/CD 는 다양하게 구현될 수 있습니다.
 
 ### Github Actions
 #### Repository 생성
-간단한 실습용 Repository를 생성합니다.
+	간단한 실습용 Repository를 생성합니다.
 ![[CI-CD test(1).png]]
 
 그리고 테스트 여부를 판단하기 위한 간단한 테스트 코드도 작성합니다.
@@ -150,7 +150,6 @@ Github Actions 이후의 과정은 다음과 같습니다.
 ![[CD-CD IAM (1).png]]
 우선 IAM > 사용자 > 사용자 생성으로 가줍니다. 
 
-![[스크린샷 2024-01-28 오후 11.10.39.png]]
 S3FullAccess와 CodeDeployFullAccess 정책을 추가해줍니다.
 ![[CI-CD IAM (2).png]]
 
@@ -242,6 +241,9 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+	  - name: Permission for deploy.sh  
+		run: chmod +x ./scripts/deploy.sh
+
       - name: Permission for gradle
         run: chmod +x ./gradlew
 
@@ -266,28 +268,62 @@ jobs:
 
 ```
 
-### deploy.sh
+### appspec.yml
 ```
 version: 0.0  
 os: linux  
   
 files:  
-  - source: build/libs/ci-cd-practice-0.0.1-SNAPSHOT.jar  # 'your-application.jar'를 실제 .jar 파일의 이름으로 대체하세요.  
-    destination: /home/ec2-user/CI-CD-practice  
+  - source: /  
+    destination: /home/ec2-user/gdsc-ci-cd  
+  
 permissions:  
-  - object: /home/ec2-user/CI-CD-practice/scripts/deploy.sh  
+  - object: /home/ec2-user/gdsc-ci-cd/scripts/deploy.sh  
     mode: 755  
     owner: ec2-user  
     group: ec2-user  
   
 hooks:  
   AfterInstall:  
-    - location: scripts/deploy.sh  
+    - location: scripts/deploy.sh 
       timeout: 60  
       runas: ec2-user
 ```
 
+## Deploy.sh
+```
+#!/usr/bin/env bash
 
+REPOSITORY=/home/ec2-user/[Repository Name]
+LOG_DIR=$REPOSITORY/logs
+LOG_FILE="$LOG_DIR/$(date +'%Y-%m-%d').log"
+
+# 로그 디렉토리 생성 시 권한 문제 해결을 위해 sudo를 사용
+if [ ! -d "$LOG_DIR" ]; then
+  sudo mkdir -p "$LOG_DIR"
+  sudo chown ec2-user:ec2-user "$LOG_DIR"
+fi
+
+cd $REPOSITORY
+
+APP_NAME=[Repository Name] # 소문자로 작성해야됨
+JAR_NAME=$(ls $REPOSITORY/build/libs/ | grep 'SNAPSHOT.jar' | tail -n 1)
+JAR_PATH=$REPOSITORY/build/libs/$JAR_NAME
+
+CURRENT_PID=$(pgrep -f $APP_NAME)
+
+if [ -z $CURRENT_PID ]
+then
+  echo "> 종료할것 없음."
+else
+  echo "> kill -9 $CURRENT_PID"
+  sudo kill -15 $CURRENT_PID
+  sleep 5
+fi
+
+echo "> $JAR_PATH 배포"
+nohup java -jar $JAR_PATH > $LOG_FILE 2>&1 &
+```
 ## 오류
 ```
 # 로그 디렉토리 생성 시 권한 문제 해결을 위해 sudo를 사용  
@@ -305,3 +341,5 @@ fi
 - name: Permission for deploy.sh  
   run: chmod +x ./scripts/deploy.sh
 ```
+
+

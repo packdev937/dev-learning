@@ -83,6 +83,24 @@ public class JavaBook {
 이제 Repository > Service > Controller 순으로 리팩토링 된 Book 객체를 넣어주어야 합니다.
 ### Repository
 	Spring Bean, 의존 독립성
+Java Repository를 Kotlin Repository로 바꾸는 방법은 간단합니다.
+예를 들어, 다음 UserRepository를 Kotlin으로 리팩토링 한다고 가정해보겠습니다.
+```java
+public interface UserRepository extends JpaRepository<User, Long> {
+
+	public Optional<User> findByName(String name);
+}
+```
+
+이를 다음과 같이 나타낼 수 있습니다.
+```kotlin
+interface UserRepository : JpaRepository<User, Long> {  
+  
+    fun findByName(name: String): Optional<User>  
+}
+```
+
+`Optional<User>` 또한 코틀린 문법의 null 연산자를 사용해서 대체할 수 있습니다. 
 ### Service
 	Spring Bean, 비즈니스 로직, 다른 Bean들을 의존
 ##### 1. Default Parameter
