@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/spring/CORS 관련 설정 파일.md",
+                "file": "backend/spring/setting/build.gradle.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 200
   },
   "right": {
     "id": "bc929590d5bfb65d",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "backend/spring/CORS 관련 설정 파일.md",
+                "file": "backend/spring/setting/build.gradle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "backend/spring/CORS 관련 설정 파일.md",
+                "file": "backend/spring/setting/build.gradle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "backend/spring/CORS 관련 설정 파일.md"
+                "file": "backend/spring/setting/build.gradle.md"
               }
             }
           }
@@ -148,46 +148,46 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5a41519426e52f74",
+  "active": "efd6c7cb6fe6c101",
   "lastOpenFiles": [
-    "programming/template/여러 환경에서의 application.properties.md",
-    "backend/spring/application.yml 훑어보기.md",
-    "backend/spring/@JsonProperty로 매핑을 진행해보자.md",
-    "backend/spring/properties 클래스를 만들 때 @EnableConfigurationProperties.md",
-    "[.md",
-    "reference/Spring Batch.md",
-    "README.md",
-    "reference/spring batch/무제 파일.md",
+    "backend/spring/setting/application.yml.md",
+    "backend/spring/setting/@ㅓ노테이션.md",
+    "backend/spring/code review/temp.md",
+    "backend/spring/code review/Logger 클래스의 역할.md",
+    "backend/spring/code review/테스트를 위한 코드는 지양하라.md",
+    "backend/spring/code review/클래스 내부의 메소드 순서는 어떤 기준으로 배열하는 것이 좋을까?.md",
+    "backend/spring/code review/(미완) 변하는 값에 대한 테스트.md",
+    "backend/spring/batch/@EnableBatchProcessing 어노테이션을 붙이면.md",
+    "backend/SOAP API와 REST API.md",
+    "backend/intellij/테스트 커버리지 확인하는 법.md",
+    "backend/Github Actions으로 자동 배포 경험해보기.md",
+    "backend/dto 클래스는 어디까지 노출하는게 좋을까.md",
+    "backend/질문 모음집.md",
+    "backend/제대로 설계하는 REST API.md",
+    "lecture/스프링 핵심 원리 - 고급편/로그 추적기.md",
+    "lecture/스프링 핵심 원리 - 고급편",
+    "lecture/무제 파일.md",
+    "backend/spring/code review/Void 메서드를 피해야 하는 이유 (미완).md",
+    "test/격리된 테스트.md",
+    "test/테스트 더블.md",
+    "test/[Baekjoon] 2042 구간 합 구하기 a5f82f91b68d4c4ea3e05e64ac410690.md",
+    "programming/database/기본키와 후보키.md",
+    "programming/database/MySQL SQL 정리.md",
+    "backend/spring/webflux/Guide To Spring 5 WebFlux.md",
+    "programming/database",
+    "backend/spring/webflux",
+    "reference/QueryDsl.md",
+    "reference/Spring Security.md",
+    "backend/spring/@AuthenticationPrincipal을 사용할 수 없을 때.md",
+    "backend/spring/setting",
+    "backend/intellij",
+    "cloud/AWS",
+    "cloud",
     "reference/spring batch",
     "reference",
-    "programming/template/AWS S3.md",
-    "programming/template/Software Architecture.md",
-    "programming/template/CICD.md",
-    "programming/template/CORS.md",
-    "programming/template/HTTPS.md",
-    "programming/template/Google OAuth.md",
-    "programming/template/JWT.md",
-    "programming/template/Docker.md",
-    "programming/template/Redis.md",
-    "programming/template/Swagger.md",
-    "programming/cron 표현식 정리.md",
     "programming/template",
-    "lecture/Spring Cloud로 개발하는 마이크로서비스 아키텍쳐/12 factors.md",
-    "lecture/Spring Cloud로 개발하는 마이크로서비스 아키텍쳐",
-    "lecture/무제 파일.md",
-    "lecture",
-    "backend/spring/RequestBody로 Enum을 받을 때 어떻게 해야 하는가?.md",
-    "backend/spring/@ㅓ노테이션을 정리해보자.md",
-    "backend/spring/Swagger 쉽게 설정하기.md",
-    "backend/spring/Jsoup로 정적 크롤링.md",
-    "backend/spring/Selenium으로 동적 크롤링.md",
-    "programming/methodology",
-    "backend/trouble-shooting",
-    "book",
-    "backend/spring/batch",
     "material/스크린샷 2024-02-10 오전 2.34.39.png",
     "material/OAuth 2.0 프로세스.png",
-    "terminal",
     "material/스크린샷 2024-03-14 오전 10.07.58.png",
     "material/id_rsa.png",
     "material/스크린샷 2024-03-11 오전 10.32.23.png",
