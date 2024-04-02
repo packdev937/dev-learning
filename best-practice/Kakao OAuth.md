@@ -1,6 +1,6 @@
 우선 카카오 개발자 페이지 [앱 등록](https://developers.kakao.com/console/app)을 진행해야 합니다. 
 
-앱 등로하면 다음과 같이 앱 키가 주어지는데, 현 시점에서 저희가 사용할 정보는 REST API 키 입니다.
+앱 등록하면 다음과 같이 앱 키가 주어지는데, 현 시점에서 저희가 사용할 정보는 REST API 키 입니다.
 ![[스크린샷 2024-03-31 오후 9.22.00.png|500]]
 
 좌측의 카카오 로그인 탭으로 이동하여 카카오 로그인을 활성화 해줍니다. 
@@ -121,6 +121,6 @@ public record KakaoOAuthResponse(String token_type, String access_token, String 
 ## Reference 
 - https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info
 - https://devnm.tistory.com/35
-- 
+
 
 
