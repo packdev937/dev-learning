@@ -9,7 +9,8 @@
 docker build -t [username]/[repository 명] ./
 ```
 - Tag를 붙인다면 `docker build -t packdev937/sunshine-server:v2 .`
-
+- `docker build -t [username]/[repository name] ./` 명령어는 현재 디렉토리의 `Dockerfile`을 사용하여 Docker 이미지를 빌드하고, 이 이미지에 `[username]/[repository name]` 형식으로 태그를 지정합니다.
+- 중요한건 `[username]/[repository 명]` 으로 하나의 이미지만 버전 업 하면서 올린다는 것입니다. 
 docker images로 이미지가 생성된걸 확인할 수 있습니다.
 ```
 docker images
@@ -55,15 +56,23 @@ sudo docker tag packdev937/sunshine-server sunshine
 
 + sudo docker-compose logs -f 로 로그를 확인
 
+### 트러블 슈팅 
 
-### exec /usr/openjdk-17/bin/java: exec format error 
-알고보니 도커는 운영체제 플랫폼에 따라 빌드가 다르게 된다. 
+exec /usr/openjdk-17/bin/java: exec format error 
+
+알고보니 도커는 운영체제 플랫폼에 따라 빌드가 다르게 됩니다.
 ```
 docker buildx create --use
 docker buildx build --push --platform linux/amd64 -t [도커 사용자명]/[레포지토리 이름] .
 ```
 ex) docker buildx build --push --platform linux/amd64 -t packdev937/sunshine-server .
 
-(매번 이걸로 빌드하자)
+**Is the docker demon running?**
+![[스크린샷 2024-04-04 오후 1.52.54.png]]
+
+도커를 실행해주어야 합니다.
+``` bash
+sudo systemctl start docker
+```
 ### 주의할 점
 터미널에서 실행하자 

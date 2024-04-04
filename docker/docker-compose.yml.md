@@ -35,3 +35,22 @@ services:
       - "8080:8080"
 
 ```
+
+완전 기본적인 docker-compose.yml은 다음과 같습니다.
+```yml
+version: "3"
+  
+services:
+  app:
+    container_name: server
+    image : goodmoneying/server
+    expose :
+      - 8080
+    ports :
+      - 8080:8080
+    restart : "always"
+~                             
+```
+
+### 주의할 점
+docker-compose.yml에 탭은 허용되지 않습니다. 공백으로 대체해야 합니다.
