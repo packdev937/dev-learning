@@ -1,1 +1,0 @@
-https://velog.io/@minidoo/WEB-Rest-API%EC%99%80-Soap-API
