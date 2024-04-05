@@ -341,5 +341,3 @@ fi
 - name: Permission for deploy.sh  
   run: chmod +x ./scripts/deploy.sh
 ```
-
-
