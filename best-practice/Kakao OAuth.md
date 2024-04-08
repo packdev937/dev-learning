@@ -29,7 +29,7 @@ OAuth의 작동 방식은 다음과 같습니다.
 
 아까 발급했던 REST API Key와 Redirect URI를 넣고 다음 URL을 실행해봅시다.
 ```bash
-kauth.kakao.com/oauth/authorize?client_id=[REST_API_KEY]&redirect_uri=http://localhost:8080/oauth/kakao&response_type=code
+kauth.kakao.com/oauth/authorize?client_id=98e0050b4553c0f6dd346cf67dd612fd&redirect_uri=https://packdev937.site/oauth/kakao&response_type=code
 ```
 
 `OAuthController.java`

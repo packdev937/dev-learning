@@ -1,0 +1,4 @@
+
+
+
+@RequestBody로 Enum을 받을 때 어떻게 해야 하는가?
