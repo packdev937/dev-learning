@@ -60,3 +60,18 @@ spring:
     jdbc:
       initialize-schema=always
 ```
+
+**jpa**
+```yaml
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
+```
