@@ -32,5 +32,6 @@ cron 표현식은 6개의 구간으로 나뉘어져 있습니다.
 - W : 가장 가까운 평일
 - `#`: 몇째 주의 무슨 요일을 표현
 
+![[Pasted image 20240415154625.png]]
 ### 예제 
 ![](https://t1.daumcdn.net/cfile/tistory/25FB583359776C5710)
