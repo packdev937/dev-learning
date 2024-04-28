@@ -124,3 +124,5 @@ public record KakaoOAuthResponse(String token_type, String access_token, String 
 
 
 
+
+kauth.kakao.com/oauth/authorize?client_id=98e0050b4553c0f6dd346cf67dd612fd&redirect_uri=http://localhost:9000/oauth/kakao&response_type=code

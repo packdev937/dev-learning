@@ -1,3 +1,4 @@
-https://curiousjinan.tistory.com/entry/spring-boot-3-1-security-6-security-config-class-detail-2
-
-https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
+- https://curiousjinan.tistory.com/entry/spring-boot-3-1-security-6-security-config-class-detail-2
+- https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
+- https://github.com/sh111-coder/oauth2WithJwtLogin
+- https://gregor77.github.io/2021/04/21/spring-security-02/ (권한)

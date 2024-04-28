@@ -1,0 +1,1 @@
+@RequestMapping(name = ) 을 사용했는지 아닌지 판단합니다.
