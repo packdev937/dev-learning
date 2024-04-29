@@ -48,3 +48,6 @@ public class SunshineServerApplication {
 ```
 
 이는 Auditing 활성화를 위해 필요한 작업입니다.
+
+### Reference
+- https://velog.io/@vpdls1511/Spring%EC%97%90%EC%84%9C-BaseEntity%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0

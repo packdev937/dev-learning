@@ -2,3 +2,4 @@
 - https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter
 - https://github.com/sh111-coder/oauth2WithJwtLogin
 - https://gregor77.github.io/2021/04/21/spring-security-02/ (권한)
+- https://deeplify.dev/back-end/spring/oauth2-social-login#userprincipal
