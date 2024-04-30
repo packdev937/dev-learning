@@ -118,11 +118,43 @@ public record KakaoOAuthResponse(String token_type, String access_token, String 
 `https://kauth.kakao.com/.well-known/jwks.json` 해당 URI을 호출하면 공개키 리스트가 전달됩니다. 
 
 
+### /v2/user/me
+
+WebClient를 사용해 email을 불러오는 도중 계속 null 값이 들어갔습니다. 로그를 찍어보니 email은 kakao_account 안에 있는 자식 필드였습니다. 
+
+```json
+{"id":3415939150,
+ "connected_at":"2024-03-31T13:50:28Z",
+ "kakao_account": {"has_email":true,
+	"email_needs_agreement":false,
+	"is_email_valid":true,
+	"is_email_verified":true,
+	"email":"roy.pack.gun.woo@gmail.com"
+	}
+}
+```
+
+따라서 이를 다음과 같이 해결했습니다.
+```java
+@Override  
+public OAuthDetailResponse retrieveOAuthDetail(String accessToken) {  
+  
+    return webClient.post()  
+        .uri(uriBuilder -> uriBuilder.path("/v2/user/me")  
+            .queryParam("property_keys", "[\"kakao_account.email\"]")  
+            .build())  
+        .header("Authorization", "Bearer " + accessToken)  
+        .retrieve()  
+        .bodyToMono(JsonNode.class)  
+        .doOnNext(jsonNode -> log.info("Received JsonNode: " + jsonNode)) // JsonNode 확인  
+        .map(jsonNode -> new OAuthDetailResponse(jsonNode.get("kakao_account").get("email").asText()))  
+        .block();  
+}
+```
+
 ## Reference 
 - https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#req-user-info
 - https://devnm.tistory.com/35
-
-
 
 
 kauth.kakao.com/oauth/authorize?client_id=98e0050b4553c0f6dd346cf67dd612fd&redirect_uri=http://localhost:9000/oauth/kakao&response_type=code
