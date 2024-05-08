@@ -1,4 +1,4 @@
-
+### 1. Sample .yml 파일 
 ```
 version: "3.3"
 
@@ -53,4 +53,4 @@ services:
 ```
 
 ### 주의할 점
-docker-compose.yml에 탭은 허용되지 않습니다. 공백으로 대체해야 합니다.
+**docker-compose.yml**에 탭은 허용되지 않습니다. 공백으로 대체해야 합니다.
